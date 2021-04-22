@@ -22,7 +22,7 @@
 > ▪ LeafSK ➥ https://github.com/andrei923/LeafSK/releases
 ***
 
-![GitHub release](https://img.shields.io/github/release/andrei923/QuickDuelsPro.svg?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues-raw/andrei923/QuickDuelsPro.svg?style=for-the-badge)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/andrei923/QuickDuelsPro.svg?style=for-the-badge)
-![GitHub All Releases](https://img.shields.io/github/downloads/andrei923/QuickDuelsPro/total.svg?style=for-the-badge)
+![GitHub release](https://img.shields.io/github/release/andrei923/QuickSurvivalGames.svg?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/andrei923/QuickSurvivalGames.svg?style=for-the-badge)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/andrei923/QuickSurvivalGames.svg?style=for-the-badge)
+![GitHub All Releases](https://img.shields.io/github/downloads/andrei923/QuickSurvivalGames/total.svg?style=for-the-badge)

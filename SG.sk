@@ -15,7 +15,7 @@ import:
 options:
 
 	#do not touch this -_-
-	plugin-version: 1.0.0
+	plugin-version: 1.0.1
 
 expression %item% with [custom] nbt %string%:
 	return type: item
@@ -838,7 +838,7 @@ function sg_createBoard(p: player, t: text):
 					replace all "{maxplayers}" with "%{_maxPlayers}%" in {_value}
 					replace all "{arena}" with "%{-sg::cache::player::%{_p}%::arena}%" in {_value}
 					replace all "{status}" with {_status} in {_value}
-					set scoreboard line {_slot} of {_p} to "%{-sg::cache::SB::%{_slot}%}%%colored {_value}%"
+					set scoreboard line {_slot} of {_p} to colored "%{-sg::cache::SB::%{_slot}%}%%colored {_value}%"
 					add 1 to {_slot}
 			else:
 				stop
@@ -860,7 +860,7 @@ function sg_createBoard(p: player, t: text):
 					replace all "{playing}" with "%size of {-sg::cache::arena::%{_arena}%::ninjas::*}%" in {_value}	
 					replace all "{watching}" with "%size of {-sg::cache::arena::%{_arena}%::bad-ninjas::*}%" in {_value}	
 					replace all "{gametime}" with "%{_gametime}%" in {_value}													
-					set scoreboard line {_slot} of {_p} to "%{-sg::cache::SB::%{_slot}%}%%colored {_value}%"
+					set scoreboard line {_slot} of {_p} to colored "%{-sg::cache::SB::%{_slot}%}%%colored {_value}%"
 					add 1 to {_slot}
 			else:
 				stop							
